@@ -27,3 +27,7 @@ const concepts = [
         "name": "Weight"
     }
 ];
+
+module.exports = {
+    concepts
+};

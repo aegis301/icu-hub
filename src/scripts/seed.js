@@ -11,7 +11,7 @@ async function seedConcepts(client) {
     const createTable = await client.sql`
       CREATE TABLE IF NOT EXISTS concepts (
         id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
-        name VARCHAR(255) NOT NULL,
+        name VARCHAR(255) NOT NULL
       );
     `;
 
